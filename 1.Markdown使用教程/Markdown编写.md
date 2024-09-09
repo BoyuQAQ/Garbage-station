@@ -14,11 +14,11 @@
 
         
 
-        ![image-20240831145031430](C:\Users\sunbo\AppData\Roaming\Typora\typora-user-images\image-20240831145031430.png)
+        ![image-20240831145031430](./assets/image-20240831145031430.png)
 
 显示效果如下：
 
-​		![image-20240831145111444](C:\Users\sunbo\AppData\Roaming\Typora\typora-user-images\image-20240831145111444.png)
+​		![image-20240831145111444](./assets/image-20240831145111444.png)
 
 
 
@@ -42,7 +42,7 @@
 
 你可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格
 
-例:![image-20240831150131956](C:\Users\sunbo\AppData\Roaming\Typora\typora-user-images\image-20240831150131956.png)
+例:![image-20240831150131956](./assets/image-20240831150131956.png)
 
 -----
 
@@ -74,7 +74,7 @@ GOOGLE.COM
 
 无序列表使用星号(*****)、加号(**+**)或是减号(**-**)作为列表标记，这些标记后面要添加一个空格，然后再填写内容：
 
-* ![image-20240831150633633](C:\Users\sunbo\AppData\Roaming\Typora\typora-user-images\image-20240831150633633.png)
+* ![image-20240831150633633](./assets/image-20240831150633633.png)
 
 显示结果如下：
 
@@ -92,9 +92,9 @@ GOOGLE.COM
 
 列表嵌套只需在子列表中的选项前面添加两个或四个空格即可
 
-![image-20240831151039364](C:\Users\sunbo\AppData\Roaming\Typora\typora-user-images\image-20240831151039364.png)
+![image-20240831151039364](./assets/image-20240831151039364.png)
 
-​			![image-20240831151047216](C:\Users\sunbo\AppData\Roaming\Typora\typora-user-images\image-20240831151047216.png)		
+​			![image-20240831151047216](./assets/image-20240831151047216.png)		
 
 #### 4、Markdown 区块
 
@@ -102,27 +102,27 @@ GOOGLE.COM
 
 Markdown 区块引用是在段落开头使用 **>** 符号 ，然后后面紧跟一个**空格**符号：
 
-![image-20240831151339973](C:\Users\sunbo\AppData\Roaming\Typora\typora-user-images\image-20240831151339973.png)
+![image-20240831151339973](./assets/image-20240831151339973.png)
 
 显示结果如下：
 
-​				![image-20240831151357591](C:\Users\sunbo\AppData\Roaming\Typora\typora-user-images\image-20240831151357591.png)
+​				![image-20240831151357591](./assets/image-20240831151357591.png)
 
 另外区块是可以嵌套的，一个 **>** 符号是最外层，两个 **>** 符号是第一层嵌套，以此类推
 
-![image-20240831151414464](C:\Users\sunbo\AppData\Roaming\Typora\typora-user-images\image-20240831151414464.png)
+![image-20240831151414464](./assets/image-20240831151414464.png)
 
 显示结果如下：
 
-​				![image-20240831151449062](C:\Users\sunbo\AppData\Roaming\Typora\typora-user-images\image-20240831151449062.png)
+​				![image-20240831151449062](./assets/image-20240831151449062.png)
 
 ##### 区块中使用列表
 
-![image-20240831151554066](C:\Users\sunbo\AppData\Roaming\Typora\typora-user-images\image-20240831151554066.png)
+![image-20240831151554066](./assets/image-20240831151554066.png)
 
 显示结果如下：
 
-​			![image-20240831151610449](C:\Users\sunbo\AppData\Roaming\Typora\typora-user-images\image-20240831151610449.png)
+​			![image-20240831151610449](./assets/image-20240831151610449.png)
 
 ##### 列表中使用区块
 
@@ -130,10 +130,51 @@ Markdown 区块引用是在段落开头使用 **>** 符号 ，然后后面紧跟
 
 列表中使用区块实例如下：
 
-![image-20240831151808769](C:\Users\sunbo\AppData\Roaming\Typora\typora-user-images\image-20240831151808769.png)
+![image-20240831151808769](./assets/image-20240831151808769.png)
 
 显示结果如下：
 
-​		![image-20240831151825654](C:\Users\sunbo\AppData\Roaming\Typora\typora-user-images\image-20240831151825654.png)			
+​		![image-20240831151825654](./assets/image-20240831151825654.png)			
 
-![点击查看图片来源](https://img0.baidu.com/it/u=2834655131,2523366071&fm=253&fmt=auto&app=120&f=JPEG?w=501&h=500)
+# 快捷键
+
+<kbd>+/:自动生成快捷键的视图
+
+> [!warning]
+
+格式:先>，之后用[!+warning]
+
+> [!tip]
+
+格式:先>，之后用[!+tip]
+
+> [!note]
+
+格式:先>，之后用[!+note]
+
+> [!caution]
+
+格式:先>，之后用[!+caution]
+
+> [!important]
+
+格式:先>，之后用[!+important]
+
+- [ ] 格式：<kbd>ctrl+shift+x</kbd>
+
+
+
+### 美人鱼图标格式
+
+```mermaid
+~~~ mermaid
+graph LR
+用户 --wifi--> AP --eth--> sw --> Router路由器 ---> 运营商 -->sever
+
+~~~
+```
+
+
+
+
+
