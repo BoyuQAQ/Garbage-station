@@ -1,3 +1,0 @@
-# Garbage-station
-
-test
